@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+  <title> jQuery Select All Checkboxes Plugin </title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <label> Select All <input type="checkbox" class="js-select-all" data-target="[name='chk']" /> </label>
+
+  <label> Checkbox 1 <input type="checkbox" name="chk" value="1"  /> </label>
+  <label> Checkbox 2 <input type="checkbox" name="chk" value="2" checked /> </label>
+  <label> Checkbox 3 <input type="checkbox" name="chk" value="3" checked /> </label>
+  <label> Checkbox 4 <input type="checkbox" name="chk" value="4" checked /> </label>
+
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src="select-all.js"></script>
+  <script>
+    $(function() {
+        $('.js-select-all').selectAll();
+    });
+  </script>
+
+</body>
+</html>
