@@ -1,6 +1,7 @@
 label {
    display: block;
    clear: both;
+   padding: 2px;
 }
 
 input[type="checkbox"] {
